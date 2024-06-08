@@ -1,0 +1,19 @@
+{
+  "name": "crafters-lyon",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "biomelint": "biome lint --write ./src",
+    "oxlint": "oxlint --fix ./src",
+    "format": "biome format --write ./src ./test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.0",
+    "@vitest/coverage-v8": "^1",
+    "oxlint": "^0.4.3",
+    "typescript": "^5",
+    "vitest": "^1"
+  }
+}
